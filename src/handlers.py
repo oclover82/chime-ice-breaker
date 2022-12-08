@@ -22,5 +22,5 @@ def send_ice_breaker(event, context):
 
 
 def _get_message():
-    return "Telephone Game - Holiday Edition\n" \
+    return "Name That Carol - Holiday Edition\n" \
            "Song: {}".format(icebreakers.get_random())
